@@ -29,19 +29,3 @@ header img{
 	transform: scale(0.5);
 }
 
-.header-left{
-	
-}
-
-
-.header-center{
-	margin-top:  275px;
-	margin-left:  -50%;
-}
-
-.header-right{
-	margin-left:  -200px;
-}
-.header-group{
-	margin: 0px -50%;
-}
