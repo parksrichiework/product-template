@@ -1,6 +1,6 @@
-lighter blue: #c1f0f2
+/*lighter blue: #c1f0f2
 darker blue: #a4dadb
-gray: #999999
+gray: #999999*/
 
 
 @media only screen and (max-width: 480px) {
@@ -10,7 +10,7 @@ gray: #999999
 }
 
 body{
-	font-family: open sans;, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 body, ul {
@@ -41,18 +41,47 @@ nav li a {
 
 nav li a:hover {
   text-decoration: underline;
-  color: black;
+  color: #c1f0f2;
 }
-nav ul li{
-	list-style: none;
-	text-align: center;
-	display: inline-block;
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+  /*refers to 0 top/bottm and 15px left/right */
+  padding: 0;
+  text-transform: lowercase;
+  letter-spacing: 1px;
+  font-size: 14px;
 }
 
 nav ul {
   margin: 0 auto;
   text-align: center;
   padding: 30px;
+}
+
+li.empty {
+  width: 50px;
+  border-top: 0.5px solid #c1f0f2;
+  top: -5px;
+  position: relative;
+}
+
+.button {
+  border: 1px solid #a4dadb;
+  text-decoration: none;
+  color: #a4dadb;
+  margin-top: 30px;
+  display: inline-block;
+  border-radius: 20px;
+  padding: 10px 30px;
+  transition: background 0.5s ease-in-out;
+  
+}
+
+.button:hover {
+  background: #a4dadb;
+  color: white;
+  cursor: pointer;
 }
 
 header {
@@ -72,24 +101,22 @@ header figure{
 	margin: 0;	
 }
 
-section{
+.shop-now{
   position: relative;  
   background-image: url('../img/shop-now-bg.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: -120px;
-
+	padding: 50px 50px;
 }
 
 
 section div figure{
-	  position: relative;
-	  padding: 7em;
+ position: relative;
+	  
 }
 
-section h1{
-	display: block;
-}
+
 
 .mission{
 	position: relative;  
@@ -99,3 +126,38 @@ section h1{
   
 }
 
+.testimonials{
+  position: relative;  
+  background-image: url('../img/testimonials-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -120px;
+	padding: 50px 50px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 100px;
+}
+
+footer h2 {
+  font-size: 30px;
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+.right-alignment {
+  text-align: right;
+}
+
+a.email-me {
+  text-decoration: underline;
+  color: #a4dadb;
+  transition: 0.3 ease-in-out;
+}
+
+a.email-me:hover {
+  text-decoration: none;
+  color: #a4dadb;
+  background-color: #c1f0f2
+}
