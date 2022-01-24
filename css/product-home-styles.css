@@ -1,3 +1,8 @@
+lighter blue: #c1f0f2
+darker blue: #a4dadb
+gray: #999999
+
+
 @media only screen and (max-width: 480px) {
   body {
     width: 100%;
@@ -61,16 +66,36 @@ header .header-center{
 	top: 30%;
 	position: relative;
 }
-header .header-left{
-	
-}
 
-header .header-right{
-
-}
 
 header figure{
 	margin: 0;	
 }
 
+section{
+  position: relative;  
+  background-image: url('../img/shop-now-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -120px;
+
+}
+
+
+section div figure{
+	  position: relative;
+	  padding: 7em;
+}
+
+section h1{
+	display: block;
+}
+
+.mission{
+	position: relative;  
+  background-color:  #c1f0f2;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
 
